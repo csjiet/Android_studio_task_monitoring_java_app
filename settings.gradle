@@ -1,0 +1,2 @@
+rootProject.name = "Android_task_monitoring_java_app"
+include ':app'
