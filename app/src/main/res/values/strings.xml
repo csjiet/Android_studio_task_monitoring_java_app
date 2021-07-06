@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Android_task_monitoring_java_app</string>
+    <string name="start">start</string>
+    <string name="mode1">MODE 1</string>
+    <string name="mode2">MODE 2</string>
+    <string name="mode3">MODE 3</string>
+    <string name="textViewForModeChoosingActivity">Select your mode</string>string>
 </resources>
