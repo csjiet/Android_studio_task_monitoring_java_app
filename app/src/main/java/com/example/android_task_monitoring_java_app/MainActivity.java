@@ -60,35 +60,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Check if username is entered
         usernameText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 String username = usernameText.getText().toString();
-
-                if(username.length() > 0){
-                    addData(username);
-                    return true;
-                }else{
-
-                    System.out.println("Data was not inserted XX");
-                    return false;
-                }
+                return false;
             }
         });
 
     }
 
     // Database
-    public void addData(String newEntry){
-        boolean insertData = mDatabaseHelper.addData(newEntry);
 
-        if(insertData){
-            System.out.println("Data inserted correctly!");
-
-        }
-
-
-    }
 
     public void openModeChoosingActivity(){
 
